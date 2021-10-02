@@ -1,0 +1,27 @@
+#myvideo{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  bottom: 30px;
+  width: 720px;
+
+  min-width: 100%;
+  min-height: 100%;
+
+}
+<div class="video">
+
+  <video autoplay muted loop id="myvideo">
+    <source src="image/video.mp4" type="video/mp4">
+  </video>
+</div>
+
+
+
+.mountain{
+  position: absolute;
+  margin: 400px;
+  display: inline-block;
+
+}
+  <img class="mountain" src="image/mountain.png" alt="mountain">
