@@ -21,8 +21,6 @@ h2 {
   font-weight: normal;
 }
 
-
-
 h3 {
   color: #11999E;
   font-family: 'Montserrat', sans-serif;
@@ -46,37 +44,39 @@ a {
   margin: 10px 20px;
   text-decoration: none;
 }
-a:hover{
+
+a:hover {
   color: #EAF6F6;
 }
-.copyright{
+
+.copyright {
   color: #EAF6F6;
   font-size: 0.65rem;
   padding: 20px 0;
 }
-.me{
+
+.me {
   font-size: 30px;
 }
 
-.title-text{
+.title-text {
   font-size: 90px;
-
 }
-.skills{
-    background-color: #88FFF7;
-    padding-bottom: 40px;
-    padding-top: 20px;
+
+.skills {
+  background-color: #88FFF7;
+  padding-bottom: 40px;
+  padding-top: 20px;
 }
 
 .top-container {
-
   position: relative;
   padding-top: 100px;
   padding-bottom: 20px;
   margin-top: 200px;
 }
 
-#myvideo{
+#myvideo {
   position: absolute;
   top: 0px;
   left: 0px;
@@ -87,15 +87,16 @@ a:hover{
   display: block;
 }
 
-.bottom-container{
-    background-color: #66BFBF;
-    padding: 50px 0 20px;
+.bottom-container {
+  background-color: #66BFBF;
+  padding: 50px 0 20px;
 }
+
 .hello {
   border-radius: 50%;
   width: 20%;
   padding-top: 100px;
-  margin-top:  200px
+  margin-top: 200px
 }
 
 .mountain {
@@ -112,7 +113,6 @@ a:hover{
   position: absolute;
   left: 250px;
   bottom: 300px;
-
 }
 
 .pro {
@@ -146,77 +146,82 @@ a:hover{
   padding-top: 30px;
   padding-left: 20px;
 }
-.project{
-    padding-top: 30px;
-    padding-bottom: 150px;
-    background-color: #28FFBF;
-    display: block;
-}
-.dice{
-    padding-right: 300px;
-    display: inline-inline-block;
-}
-.band{
-    padding-left: 600px;
-}
-.drum{
-    display: inline-block;
-    float: right;
-    padding-right: 100px;
 
-    color: #B980F0;
-    font-size: 30px;
+.project {
+  padding-top: 30px;
+  padding-bottom: 150px;
+  background-color: #28FFBF;
+  display: block;
 }
-.dicet{
-    display: inline-block;
-    color: #FF5C58;
-    padding-left: 100px;
-    font-size: 30px;
-    float: left;
 
+.dice {
+  padding-right: 300px;
+  display: inline-block;
 }
-.prohead{
+
+.band {
+  padding-left: 600px;
+}
+
+.drum {
+  display: inline-block;
+  float: right;
+  padding-right: 100px;
+  color: #B980F0;
+  font-size: 30px;
+}
+
+.dicet {
+  display: inline-block;
+  color: #FF5C58;
+  padding-left: 100px;
+  font-size: 30px;
+  float: left;
+}
+
+.prohead {
   padding-bottom: 5%;
   font-size: 45px;
-
 }
+
 .head {
   padding-top: 50px;
   padding-right: 30px;
 }
+
 .btn {
-   background: #3D94F6;
-   background-image: -webkit-linear-gradient(top, #3D94F6, #1E62D0);
-   background-image: -moz-linear-gradient(top, #3D94F6, #1E62D0);
-   background-image: -ms-linear-gradient(top, #3D94F6, #1E62D0);
-   background-image: -o-linear-gradient(top, #3D94F6, #1E62D0);
-   background-image: -webkit-gradient(to bottom, #3D94F6, #1E62D0);
-   -webkit-border-radius: 43px;
-   -moz-border-radius: 43px;
-   border-radius: 43px;
-   color: #FFFFFF;
-   font-family: 'Montserrat', sans-serif;
-   font-size: 20px;
-   font-weight: 100;
-   padding: 8px;
-   margin-bottom: 30px;
-   border: solid #337FED 0;
-   text-decoration: none;
-   display: inline-block;
-   cursor: pointer;
-   text-align: center;
+  background: #3D94F6;
+  background-image: -webkit-linear-gradient(top, #3D94F6, #1E62D0);
+  background-image: -moz-linear-gradient(top, #3D94F6, #1E62D0);
+  background-image: -ms-linear-gradient(top, #3D94F6, #1E62D0);
+  background-image: -o-linear-gradient(top, #3D94F6, #1E62D0);
+  background-image: -webkit-gradient(to bottom, #3D94F6, #1E62D0);
+  -webkit-border-radius: 43px;
+  -moz-border-radius: 43px;
+  border-radius: 43px;
+  color: #FFFFFF;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  font-weight: 100;
+  padding: 8px;
+  margin-bottom: 30px;
+  border: solid #337FED 0;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
 }
 
 .btn:hover {
-   border: solid #337FED 4px;
-   background: #1E5AE7;
-   background-image: -webkit-linear-gradient(top, #1E5AE7, #1A53F7);
-   background-image: -moz-linear-gradient(top, #1E5AE7, #1A53F7);
-   background-image: -ms-linear-gradient(top, #1E5AE7, #1A53F7);
-   background-image: -o-linear-gradient(top, #1E5AE7, #1A53F7);
-   background-image: -webkit-gradient(to bottom, #1E5AE7, #1A53F7);
-   -webkit-border-radius: 90px;
-   -moz-border-radius: 90px;
-   border-radius: 90px;
-   text-decoration: none;
+  border: solid #337FED 4px;
+  background: #1E5AE7;
+  background-image: -webkit-linear-gradient(top, #1E5AE7, #1A53F7);
+  background-image: -moz-linear-gradient(top, #1E5AE7, #1A53F7);
+  background-image: -ms-linear-gradient(top, #1E5AE7, #1A53F7);
+  background-image: -o-linear-gradient(top, #1E5AE7, #1A53F7);
+  background-image: -webkit-gradient(to bottom, #1E5AE7, #1A53F7);
+  -webkit-border-radius: 90px;
+  -moz-border-radius: 90px;
+  border-radius: 90px;
+  text-decoration: none;
 }
